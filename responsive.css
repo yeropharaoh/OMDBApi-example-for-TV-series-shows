@@ -1,0 +1,42 @@
+/* laptop */
+@media screen and (max-width: 1200px) {
+    .left-side-info, .right-side-info {
+        width: 100%;
+        /* height: 500px; */
+        display: inline-block;
+        margin: 10px auto;
+        /* background: blue; */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .left-side-info {
+        border-right: dashed 10px papayawhip;
+    }
+    #season-section {
+        border-top: dashed 10px papayawhip;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .each-season {
+        width: 48%;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+    .right-side-info .genre {
+        padding-top: 0;
+    }
+    #season-section {
+        padding: 0;
+    }
+    h1.season-no {
+        font-size: 36px;
+    }
+    .each-season {
+        width: 100%;
+    }
+}
