@@ -2,10 +2,8 @@
 @media screen and (max-width: 1200px) {
     .left-side-info, .right-side-info {
         width: 100%;
-        /* height: 500px; */
         display: inline-block;
         margin: 10px auto;
-        /* background: blue; */
     }
 }
 
